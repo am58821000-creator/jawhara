@@ -1,0 +1,106 @@
+/* خطوط وألوان */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #1a1a1a;
+}
+
+/* رأس الصفحة */
+.header {
+    background: #ffffff;
+    padding: 20px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+/* قسم رئيسي */
+.hero {
+    background: url('hero-bg.jpg') center/cover no-repeat;
+    text-align: center;
+    padding: 150px 0;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 12px 25px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+/* عن البراند */
+.about {
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* المنتجات */
+.products {
+    padding: 60px 0;
+}
+
+.grid {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.item h3 {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+/* تواصل معنا */
+.contact {
+    padding: 50px 0;
+    background: #f9f9f9;
+}
+
+form input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* ذيل الصفحة */
+.footer {
+    text-align: center;
+    padding: 12px 0;
+    background: #000;
+    color: #fff;
+}
